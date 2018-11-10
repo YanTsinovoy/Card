@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kanit', sans-serif;
+}
+.main {
+  margin: 0 auto 0 auto;
+  width: 95vw;
+  height:95vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.options {
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#7780ff,#1924c1);
+}
+.card {
+  margin: 3vw;
+  width: 300px;
+  height:200px;
+  background-image: url(../images/CardBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.card p {
+  color: #fff;
+  position: absolute;
+}
+#numberCard {
+  top: 90px;
+  left: 40px;
+  font-size: 22px;
+}
+#userName {
+  top: 125px;
+  left: 30px;
+  font-size: 22px;
+}
+.menu {
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.terminal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#monitor {
+  width: 100%;
+  height: 60vh;
+  border:10px solid;
+  box-shadow:
+    inset 0 0 10px black,
+    inset 0 0 1px black,
+    0 0 2px black;
+  border-bottom-color: #202326;
+  border-left-color: #080808;
+  border-right-color: #080808;
+  border-top-color: #202326;
+  position: relative;
+  background: linear-gradient(#fbfcf4,#fcffef);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#window {
+  width:90%;
+  height:90%;
+  text-align: center;
+  font-size: 32px;
+}
+#panel {
+  width: 100%;
+  height: 35vh;
+  background:linear-gradient(#cfd2d6 ,#e3e7ed 20px,#c1c6cc);
+  border:2px solid #67696b;
+  box-shadow:inset 0 1px 2px black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  width: 200px;
+  height: 100px;
+  background: #50b70b;
+  position: relative;
+  margin: 30px;
+  top: 100px;
+  padding: 16px;
+  font-size: 36px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px #45a008;
+  transition: all 0.2s;
+}
+.btn:active {
+  top: 108px;
+  box-shadow: 0px 7px 0px 0px #45a008;
+}
+.line {
+  background-color: black;
+  width: 80%;
+  height: 5px;
+  margin: 40px 0 40px 0;
+}
